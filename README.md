@@ -3,14 +3,17 @@ Salary_LPA Prediction is a Machine Learning project based on Linear Regression t
 Project Workflow (Step-by-Step)
 🔹 Step 1: Data Collection
 Dataset contains student details like marks, skills, internships, experience, etc.
+
 🔹 Step 2: Data Preprocessing
 Handle missing values
 Convert categorical data into numeric format
 Clean and prepare dataset
+
 🔹 Step 3: Model Training
 Apply Linear Regression algorithm
 Train model using input features
 Evaluate model performance
+
 🔹 Step 4: Save Model
 import pickle
 pickle.dump(model, open('trained_model.pkl', 'wb'))
